@@ -2,8 +2,8 @@ name: ScoreTank Live Scraper
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # تشغيل كل 10 دقائق
-  workflow_dispatch: # زر التشغيل اليدوي للتجربة
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   scrape-and-update:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: جلب الملفات
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: تجهيز بيئة Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '22'
 
     - name: تسطيب المكتبات
       run: npm install
