@@ -1,0 +1,329 @@
+{
+  "yesterday": {
+    "كأس العالم لكرة القدم": {
+      "logo": "https://img0.aiscore.com/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80",
+      "matches": [
+        {
+          "id": "vrqwni43mmws4qn",
+          "t1": "إكوادور",
+          "t2": "كوراكاو",
+          "t1Logo": "https://img0.aiscore.com/football/team/10c94f16a2db4872b22d66aa3949bdc0.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/b5e51cdfe1a14bdf8289260933b2d405.png!w80",
+          "time": "٠٣:٠٠ ص",
+          "score1": 0,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "g6763i5rmodho7r",
+          "t1": "تونس",
+          "t2": "اليابان",
+          "t1Logo": "https://img0.aiscore.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80",
+          "time": "٠٧:٠٠ ص",
+          "score1": 0,
+          "score2": 4,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "63kv9igrw5pax7e",
+          "t1": "إسبانيا",
+          "t2": "المملكة العربية السعودية",
+          "t1Logo": "https://img0.aiscore.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/344c0d0b85274807ba668a603ef5a05e.png!w80",
+          "time": "٠٧:٠٠ م",
+          "score1": 4,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "34kgmioe543ieko",
+          "t1": "بلجيكا",
+          "t2": "إيران",
+          "t1Logo": "https://img0.aiscore.com/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/8155ecd333d749a8a3df7be234d157c4.png!w80",
+          "time": "١٠:٠٠ م",
+          "score1": 0,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        }
+      ]
+    },
+    "الدوري المغربي الإحترافي إنوي": {
+      "logo": "https://img0.aiscore.com/football/competition/c997cac5e146bab6891fd0aef3b943f0.png!w80",
+      "matches": [
+        {
+          "id": "l6kegi8n4yxhv75",
+          "t1": "الدفاع الحسني الجديدي",
+          "t2": "الوداد",
+          "t1Logo": "https://img0.aiscore.com/football/team/ff72f737712274ec5124e6da29814c45.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/d01e355bc3e95af3c33dbd9bfb0ee39f.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 1,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "xvkjoi8y1goc879",
+          "t1": "أصفر الرباط",
+          "t2": "الكوكب المراكشي",
+          "t1Logo": "https://img0.aiscore.com/football/team/cded7b7cce01069ad7d13ebf14a03723.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/e6d014b447c5ebded36c1976fd866cb4.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 2,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "m2q15izx6mnfe76",
+          "t1": "الفتح الرياضي",
+          "t2": "أولمبيك الدشيرة",
+          "t1Logo": "https://img0.aiscore.com/football/team/1f0293c89e32800cf5132bd8ed169fec.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/fb3dee9268781769314a3b8557b2da0f.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 0,
+          "score2": 2,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "zrkn6i4gp2ofwql",
+          "t1": "حسنية أكادير",
+          "t2": "الاتحاد التوركي",
+          "t1Logo": "https://img0.aiscore.com/football/team/ae14c6f6f29e1007559cfa54b729a3d9.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/01d255de45c5cd372b12b94025e7b770.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 1,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "oj7x9ixjv8yh47g",
+          "t1": "اتحاد طنجة",
+          "t2": "نهضة الزمامرة",
+          "t1Logo": "https://img0.aiscore.com/football/team/d2f2fbc52f72495bbc0499d7cd646be9.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/fb9a0320f63552dab8ea47945c685a08.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 1,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "vmqy9iv9xddbgk9",
+          "t1": "المغرب الفاسي",
+          "t2": "نهضة بركان",
+          "t1Logo": "https://img0.aiscore.com/football/team/d54fa0898b3cfd7d1928173cc8af52e7.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/643cec02806b6e82d15d0570d39febca.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 1,
+          "score2": 2,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "o17pjioml3vby7j",
+          "t1": "أولمبي صافي",
+          "t2": "Yacoub El Mansour",
+          "t1Logo": "https://img0.aiscore.com/football/team/c5ffc7b232f5e8c17571c1ec49b3946f.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/00db7f2d3e7efe055db29255e17c13a0.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 0,
+          "score2": 1,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "jr7owip8onmugq0",
+          "t1": "راجا الرياضي",
+          "t2": "النادي الرياضي المكناسي",
+          "t1Logo": "https://img0.aiscore.com/football/team/a3aa0a3edad49e47cf6018481e51054e.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/6b992da9528f0bc780cb842e291ba313.png!w80",
+          "time": "٠٥:٠٠ م",
+          "score1": 2,
+          "score2": 1,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        }
+      ]
+    }
+  },
+  "today": {
+    "كأس العالم لكرة القدم": {
+      "logo": "https://img0.aiscore.com/football/competition/da617cd58cd9cffaae0daec865457fb5.png",
+      "matches": [
+        {
+          "id": "ndkz6i3jvy3hxq3",
+          "t1": "أوروغواي",
+          "t2": "كيب فيردي",
+          "t1Logo": "https://img0.aiscore.com/football/team/df95d362f8e4446e9d4637aa0daa8f22.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/3367956ae5c44991af49e1e2137f415b.png!w80",
+          "time": "٠١:٠٠ ص",
+          "score1": 2,
+          "score2": 2,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "xvkjoi8n3ylh879",
+          "t1": "نيوزيلندا",
+          "t2": "مصر",
+          "t1Logo": "https://img0.aiscore.com/football/team/7888d7d6d0a94676a13eaa2319a88583.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/52655c6b9f28486b9e478bd9711428cd.png!w80",
+          "time": "٠٤:٠٠ ص",
+          "score1": 1,
+          "score2": 3,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "g6763i5rmmdbo7r",
+          "t1": "الأرجنتين",
+          "t2": "النمسا",
+          "t1Logo": "https://img0.aiscore.com/football/team/ef7329946e1741b9ade4fedbf739158a.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/6010ce94e8e042a687207a7dceb06658.png!w80",
+          "time": "٠٨:٠٠ م",
+          "score1": 2,
+          "score2": 0,
+          "pen1": "",
+          "pen2": "",
+          "statusText": "انتهت",
+          "sClass": "ended",
+          "timerHtml": ""
+        },
+        {
+          "id": "vrqwni43m2wh4qn",
+          "t1": "فرنسا",
+          "t2": "العراق",
+          "t1Logo": "https://img0.aiscore.com/football/team/80afde3512424e2a9d287cad74b6068a.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/d63ba4378c5b4c55baa283ef654399ad.png!w80",
+          "time": "١٢:٠٠ ص",
+          "score1": "-",
+          "score2": "-",
+          "pen1": "",
+          "pen2": "",
+          "statusText": "لم تبدأ",
+          "sClass": "not-started",
+          "timerHtml": ""
+        }
+      ]
+    }
+  },
+  "tomorrow": {
+    "كأس العالم لكرة القدم": {
+      "logo": "https://img0.aiscore.com/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80",
+      "matches": [
+        {
+          "id": "jr7owip1w8wfgq0",
+          "t1": "النرويج",
+          "t2": "السنغال",
+          "t1Logo": "https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/cb23b861bbdc4d258313dd94efca7493.png!w80",
+          "time": "٠٣:٠٠ ص",
+          "score1": "-",
+          "score2": "-",
+          "pen1": "",
+          "pen2": "",
+          "statusText": "لم تبدأ",
+          "sClass": "not-started",
+          "timerHtml": ""
+        },
+        {
+          "id": "527r3i4l5x2h47e",
+          "t1": "الأردن",
+          "t2": "الجزائر",
+          "t1Logo": "https://img0.aiscore.com/football/team/92a6308394834fd38eadaf9105c99749.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/91e9ae1b4f224d9e856e56b0cf14416f.png!w80",
+          "time": "٠٦:٠٠ ص",
+          "score1": "-",
+          "score2": "-",
+          "pen1": "",
+          "pen2": "",
+          "statusText": "لم تبدأ",
+          "sClass": "not-started",
+          "timerHtml": ""
+        },
+        {
+          "id": "xvkjoi8n33ls879",
+          "t1": "البرتغال",
+          "t2": "أوزبكستان",
+          "t1Logo": "https://img0.aiscore.com/football/team/c9847eeba0c64358960425bb19adbac0.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/3016a701d47246f082016705f2f7267c.png!w80",
+          "time": "٠٨:٠٠ م",
+          "score1": "-",
+          "score2": "-",
+          "pen1": "",
+          "pen2": "",
+          "statusText": "لم تبدأ",
+          "sClass": "not-started",
+          "timerHtml": ""
+        },
+        {
+          "id": "oj7x9ix022es47g",
+          "t1": "إنجلترا",
+          "t2": "غانا",
+          "t1Logo": "https://img0.aiscore.com/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/d22eb067fe4d496383acd1f38714e62b.png!w80",
+          "time": "١١:٠٠ م",
+          "score1": "-",
+          "score2": "-",
+          "pen1": "",
+          "pen2": "",
+          "statusText": "لم تبدأ",
+          "sClass": "not-started",
+          "timerHtml": ""
+        }
+      ]
+    }
+  },
+  "lastUpdate": "2026-06-22T20:16:15.249Z"
+}
