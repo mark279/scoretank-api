@@ -1,18 +1,15 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import protobuf from 'protobufjs';
-import { gotScraping } from 'got-scraping';
+const fs = require('fs');
+const path = require('path');
+const protobuf = require('protobufjs');
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+// 1. البطولات المستهدفة
 const targetLeagues = [
     "كأس العالم", "كأس أمم أفريقيا", "دوري أبطال أفريقيا", "دوري أبطال أوروبا", 
     "الدوري الإنجليزي الممتاز", "الدوري الإسباني الدرجة الأولى", "الدوري الإيطالي الدرجة الأولى", 
     "الدوري الألماني", "الدوري المصري الممتاز", "الدوري السعودي للمحترفين", "دوري نجوم العراق", "الدوري المغربي الإحترافي إنوي"
 ];
 
+// 2. دالة لضبط التاريخ بتوقيت القاهرة
 function getCairoDateString(offsetDays) {
     const d = new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Cairo" }));
     d.setDate(d.getDate() + offsetDays);
@@ -62,6 +59,10 @@ function getMatchMetaData(m) {
 
 async function runScraper() {
     console.log("🚀 بدء السحب لتخطي حماية AiScore...");
+    
+    // 🔥 الخدعة الذكية: استدعاء المكتبة ديناميكياً لتخطي أخطاء التوافق 🔥
+    const { gotScraping } = await import('got-scraping');
+
     const schemaPath = path.join(__dirname, 'aiscore_schema_final.json');
     const schemaJson = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
     const root = protobuf.Root.fromJSON(schemaJson);
