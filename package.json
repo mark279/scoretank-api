@@ -1,0 +1,13 @@
+{
+  "name": "scoretank-api",
+  "version": "1.0.0",
+  "description": "ScoreTank Live Matches API",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "got-scraping": "^4.0.0",
+    "protobufjs": "^7.2.5"
+  }
+}
