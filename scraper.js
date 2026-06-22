@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const protobuf = require('protobufjs');
-const { gotScraping } = require('got-scraping');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import protobuf from 'protobufjs';
+import { gotScraping } from 'got-scraping';
+
+// تهيئة المسارات لنظام ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 1. البطولات المستهدفة
 const targetLeagues = [
@@ -60,7 +65,7 @@ function getMatchMetaData(m) {
     return { statusText, sClass, timerHtml };
 }
 
-// 5. المحرك الأساسي (يعمل عبر node.js)
+// 5. المحرك الأساسي 
 async function runScraper() {
     console.log("🚀 بدء السحب لتخطي حماية AiScore...");
     const schemaPath = path.join(__dirname, 'aiscore_schema_final.json');
@@ -78,7 +83,7 @@ async function runScraper() {
         console.log(`⏳ جلب بيانات: ${dayName} (${dateStr})`);
 
         try {
-            // استخدام gotScraping لخداع Cloudflare كأننا متصفح حقيقي (لا يوجد بروكسيات محظورة بعد اليوم)
+            // استخدام gotScraping لخداع Cloudflare كأننا متصفح حقيقي
             const response = await gotScraping({
                 url: targetUrl,
                 responseType: 'buffer', 
@@ -138,7 +143,6 @@ async function runScraper() {
         }
     }
 
-    // حفظ النتيجة كملف JSON ثابت ليستطيع القالب قراءته كصاروخ
     fs.writeFileSync(path.join(__dirname, 'api.json'), JSON.stringify(finalData, null, 2));
     console.log("💾 تمت العملية بنجاح! تم حفظ البيانات المفلترة في api.json");
 }
