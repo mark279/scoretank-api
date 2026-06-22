@@ -13,10 +13,10 @@ jobs:
     - name: جلب الملفات
       uses: actions/checkout@v4
 
-    - name: تجهيز بيئة Node.js
+    - name: تجهيز بيئة Node.js الحديثة مباشرة
       uses: actions/setup-node@v4
       with:
-        node-version: '22'
+        node-version: '24'
 
     - name: تسطيب المكتبات
       run: npm install
