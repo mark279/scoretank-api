@@ -4,65 +4,82 @@ import { fileURLToPath } from 'url';
 import protobuf from 'protobufjs';
 import { gotScraping } from 'got-scraping';
 
-// تهيئة المسارات للنظام الحديث
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 1. البطولات المستهدفة
 const targetLeagues = [
-    "كأس العالم", "كأس أمم أفريقيا", "دوري أبطال أفريقيا", "دوري أبطال أوروبا", 
-    "الدوري الإنجليزي الممتاز", "الدوري الإسباني الدرجة الأولى", "الدوري الإيطالي الدرجة الأولى", 
-    "الدوري الألماني", "الدوري المصري الممتاز", "الدوري السعودي للمحترفين", "دوري نجوم العراق", "الدوري المغربي الإحترافي إنوي" ,"الدوري الممتاز الإيرلندي"
+    // بطولات قارية ودولية
+    "كأس العالم", "دروع كونكاكاف الكاريبي", "كأس كوبا أمريكا", "كأس كوبا ليبرتادوريس", 
+    "التصفيات المؤهلة لكأس العالم - أمريكا الجنوبية", "التصفيات المؤهلة لكأس العالم - أفريقيا", 
+    "التصفيات المؤهلة لكأس العالم - آسيا", "كأس أمم أفريقيا", "دوري أبطال أفريقيا", 
+    "دوري كرة القدم الأفريقي", "كأس الاتحاد الأفريقي - الكونفدرالية", "كأس السوبر الأفريقي", 
+    "AFC Cup", "كأس أمم آسيا", "دوري أبطال آسيا", "دوري أبطال آسيا 2", "دوري أبطال آسيا النخبة", 
+    "دوري التحدي الآسيوي", "كأس العالم للأندية", "كأس العرب لكرة القدم", "كأس العرب للأندية الأبطال", 
+    "كأس القارات للأندية الأبطال", "بطولة أمم أوروبا", "دوري الأمم الأوروبية", "دوري أبطال أوروبا", 
+    "الدوري الأوروبي", "دوري المؤتمر الأوروبي", "مباريات دولية ودية - أندية", "مباريات دولية ودية",
+
+    // مصر
+    "الدوري المصري الممتاز", "الدوري المصري الدرجة الثانية", "كأس الرابطة", 
+    "كأس السوبر المصري", "كأس مصر",
+
+    // إسبانيا
+    "الدوري الإسباني الدرجة الأولى", "كأس الاتحاد الإسباني", "كأس السوبر الإسباني", "كأس ملك إسبانيا",
+
+    // إنجلترا
+    "الدوري الإنجليزي الممتاز", "كأس الاتحاد الإنجليزي", "كأس التحدي لاتحاد كرة القدم", "كأس الدوري الإنجليزي",
+
+    // إيطاليا
+    "الدوري الإيطالي الدرجة الأولى", "كأس إيطاليا", "كأس السوبر الإيطالي",
+
+    // ألمانيا
+    "الدوري الألماني", "كأس السوبرالألماني",
+
+    // السعودية
+    "دوري روشن السعودي", "دوري يلو للدرجة الأولى السعودي", "دوري المحترفين السعودي", 
+    "تصفيات كأس ولي العهد السعودي", "كأس خادم الحرمين الشريفين للأبطال السعودي", "كأس ولي العهد السعودي",
+
+    // الإمارات
+    "دوري ادنوك الاماراتي للمحترفين", "الدوري الاماراتي الدرجة الاولى", "دوري الرديف الإماراتي", 
+    "كأس السوبرالاماراتي", "كأس دبي الإماراتي", "كأس دبي للتحدي", "كأس رئيس الدولة الاماراتي", 
+    "كأس رابطة المحترفين الإماراتية",
+
+    // المغرب والجزائر وتونس
+    "الدوري المغربي الإحترافي إنوي", "الرابطة المحترفة الجزائرية الأولى", "الدوري الجزائري القسم الثاني", 
+    "كأس الجزائر", "كأس السوبر الجزائري", "الرابطة التونسية المحترفة الأولى",
+
+    // الأردن وسوريا والعراق
+    "الدوري الأردني للمحترفين", "الدوري الأردني الدرجة الأولى", "كأس الأردن", "كأس السوبر الأردني",
+    "دوري نجوم العراق", "الدوري السوري الممتاز",
+
+    // قطر، الكويت، عمان، البحرين
+    "دوري OOREDOO القطري", "كأس OOREDOO القطري", "كأس أمير قطر", "كأس الاتحاد القطري", 
+    "كأس الشيخ جاسم قطر", "كأس قطر", "كأس ولي العهد القطري", "الدوري الكويتي الممتاز", 
+    "الدوري العماني للمحترفين عمانتل", "دوري المحترفين العماني", "دوري الدرجة الأولى البحريني",
+
+    // السودان وليبيا ولبنان
+    "الدوري الممتاز السوداني", "الدوري الليبي الممتاز", "الدوري اللبناني الممتاز",
+
+    // فرنسا وتركيا
+    "الدوري الفرنسي الدرجة الأولى", "كأس الدوري الفرنسي", "كأس السوبر الفرنسي", "كأس فرنسا", 
+    "الدوري التركي الممتاز",
+
+    // أمريكا والدوريات الأخرى
+    "دوري كرة القدم الأميركي الممتاز", "الدوري الممتاز الكندي", "الدوري الأمريكي الممتاز للسيدات", 
+    "كأس الإكوادور"
 ];
 
-// 2. دالة لضبط التاريخ بتوقيت القاهرة
-function getCairoDateString(offsetDays) {
-    const d = new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Cairo" }));
+// تعديل هندسي: جلب التاريخ بناءً على التوقيت العالمي النقي لمنع تضارب المتصفحات
+function getUTCDateString(offsetDays) {
+    const d = new Date();
     d.setDate(d.getDate() + offsetDays);
-    return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+    return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}`;
 }
 
-// 3. إصلاح مسارات الصور
 function fixImageUrl(imgUrl, type) {
     if (!imgUrl) return '';
     if (imgUrl.startsWith('http')) return imgUrl;
     if (type === 'competition') return imgUrl.includes('country/') ? `https://img1.aiscore.com/${imgUrl}` : `https://img0.aiscore.com/football/competition/${imgUrl}`;
     return `https://img0.aiscore.com/football/team/${imgUrl}`;
-}
-
-// 4. محرك الحالات والتايمر
-function getMatchMetaData(m) {
-    let sId = m.statusId !== undefined ? m.statusId : (m.status || 0);
-    const times = m.times || {};
-    let statusText = "لم تبدأ"; let timer = ""; let sClass = "not-started";
-    let tmrSecs = times.tmrSecs || 0;
-    let tmrUpdated = times.tmrUpdated || 0;
-    let ticking = times.ticking || 0;
-
-    let liveSeconds = 0;
-    if (ticking === 1 && tmrUpdated > 0) {
-        liveSeconds = Math.floor(Date.now() / 1000) - tmrUpdated;
-        if (liveSeconds < 0 || liveSeconds > 7200) liveSeconds = 0;
-    }
-    let totalSeconds = tmrSecs + liveSeconds;
-    let mins = Math.floor(totalSeconds / 60);
-
-    switch (sId) {
-        case 0: case 1: statusText = "لم تبدأ"; sClass = "not-started"; break;
-        case 2: statusText = "الشوط الأول"; sClass = "live"; timer = mins >= 45 ? `45+${mins - 45 + 1}'` : `${mins + 1}'`; break;
-        case 3: statusText = "بين الشوطين"; sClass = "live"; break;
-        case 4: statusText = "الشوط الثاني"; sClass = "live"; timer = mins >= 90 ? `90+${mins - 90 + 1}'` : `${mins + 1}'`; break;
-        case 5: sClass = "live"; if (mins < 105) { statusText = "شوط إضافي أول"; timer = `${mins + 1}'`; } else { statusText = "شوط إضافي ثاني"; timer = mins >= 120 ? `120+${mins - 120 + 1}'` : `${mins + 1}'`; } break;
-        case 6: statusText = "استراحة إضافي"; sClass = "live"; break;
-        case 7: case 50: statusText = "ركلات ترجيح"; sClass = "live"; break;
-        case 8: statusText = "انتهت"; sClass = "ended"; break;
-        case 9: case 13: statusText = "مؤجلة"; sClass = "postponed"; break;
-        case 10: case 11: statusText = "توقف"; sClass = "live"; break;
-        case 12: statusText = "إلغاء"; sClass = "cancelled"; break;
-        default: statusText = ticking === 1 ? "مباشر" : "لم تبدأ"; sClass = ticking === 1 ? "live" : "not-started"; timer = ticking === 1 ? `${mins + 1}'` : "";
-    }
-    let timerHtml = sClass === 'live' ? (timer ? `<span class="stk-live-dot"></span> <span dir="ltr">${timer}</span>` : `<span class="stk-live-dot"></span>`) : '';
-    return { statusText, sClass, timerHtml };
 }
 
 async function runScraper() {
@@ -77,8 +94,8 @@ async function runScraper() {
     const finalData = { yesterday: {}, today: {}, tomorrow: {}, lastUpdate: new Date().toISOString() };
 
     for (const [dayName, offset] of Object.entries(offsets)) {
-        const dateStr = getCairoDateString(offset);
-        const targetUrl = `https://api.aiscore.com/v1/m/api/matches?lang=36&sport_id=1&date=${dateStr}&tz=02:00`;
+        const dateStr = getUTCDateString(offset);
+        const targetUrl = `https://api.aiscore.com/v1/m/api/matches?lang=36&sport_id=1&date=${dateStr}&tz=00:00`;
         console.log(`⏳ جلب بيانات: ${dayName} (${dateStr})`);
 
         try {
@@ -117,19 +134,24 @@ async function runScraper() {
                     const pen1Html = t1Pen !== null && t1Pen > 0 ? `<span class="stk-pen">(${t1Pen})</span>` : '';
                     const pen2Html = t2Pen !== null && t2Pen > 0 ? `<span class="stk-pen">(${t2Pen})</span>` : '';
 
-                    const meta = getMatchMetaData(m);
-                    const isPending = ["لم تبدأ", "تأجلت", "إلغاء", "مؤجلة"].includes(meta.statusText);
-                    
+                    // نرسل البيانات الخام بالكامل للمتصفح وهو يتكفل بحساب العداد الحقيقي تلقائياً
                     const matchTimeMs = (m.matchTime || m.time).toString().length <= 10 ? (m.matchTime || m.time) * 1000 : (m.matchTime || m.time);
-                    const matchTimeStr = new Date(matchTimeMs).toLocaleTimeString('ar-EG', { timeZone: 'Africa/Cairo', hour: '2-digit', minute:'2-digit' });
+                    const matchTimeStr = new Date(matchTimeMs).toLocaleTimeString('ar-EG', { hour: '2-digit', minute:'2-digit' });
 
                     if (!grouped[compName]) grouped[compName] = { logo: compLogo, matches: [] };
                     
                     grouped[compName].matches.push({
-                        id: m.id, t1: hTeamObj.name || m.homeName, t2: aTeamObj.name || m.awayName,
-                        t1Logo: fixImageUrl(hTeamObj.logo, 'team'), t2Logo: fixImageUrl(aTeamObj.logo, 'team'),
-                        time: matchTimeStr, score1: isPending ? '-' : t1Score, score2: isPending ? '-' : t2Score,
-                        pen1: pen1Html, pen2: pen2Html, ...meta
+                        id: m.id,
+                        t1: hTeamObj.name || m.homeName,
+                        t2: aTeamObj.name || m.awayName,
+                        t1Logo: fixImageUrl(hTeamObj.logo, 'team'),
+                        t2Logo: fixImageUrl(aTeamObj.logo, 'team'),
+                        time: matchTimeStr,
+                        score1: t1Score,
+                        score2: t2Score,
+                        pen1: pen1Html,
+                        pen2: pen2Html,
+                        rawMatchData: m // تمرير الكائن الخام لكي يقرأه الـ MQTT والعداد في المتصفح فوراً
                     });
                 }
             });
@@ -142,7 +164,7 @@ async function runScraper() {
     }
 
     fs.writeFileSync(path.join(__dirname, 'api.json'), JSON.stringify(finalData, null, 2));
-    console.log("💾 تمت العملية بنجاح! تم حفظ البيانات المفلترة في api.json");
+    console.log("💾 تمت العملية بنجاح!");
 }
 
 runScraper();
