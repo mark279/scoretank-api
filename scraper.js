@@ -1,6 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const protobuf = require('protobufjs');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import protobuf from 'protobufjs';
+import { gotScraping } from 'got-scraping';
+
+// تهيئة المسارات للنظام الحديث
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 1. البطولات المستهدفة
 const targetLeagues = [
@@ -16,6 +22,7 @@ function getCairoDateString(offsetDays) {
     return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
 }
 
+// 3. إصلاح مسارات الصور
 function fixImageUrl(imgUrl, type) {
     if (!imgUrl) return '';
     if (imgUrl.startsWith('http')) return imgUrl;
@@ -23,6 +30,7 @@ function fixImageUrl(imgUrl, type) {
     return `https://img0.aiscore.com/football/team/${imgUrl}`;
 }
 
+// 4. محرك الحالات والتايمر
 function getMatchMetaData(m) {
     let sId = m.statusId !== undefined ? m.statusId : (m.status || 0);
     const times = m.times || {};
@@ -59,10 +67,6 @@ function getMatchMetaData(m) {
 
 async function runScraper() {
     console.log("🚀 بدء السحب لتخطي حماية AiScore...");
-    
-    // 🔥 الخدعة الذكية: استدعاء المكتبة ديناميكياً لتخطي أخطاء التوافق 🔥
-    const { gotScraping } = await import('got-scraping');
-
     const schemaPath = path.join(__dirname, 'aiscore_schema_final.json');
     const schemaJson = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
     const root = protobuf.Root.fromJSON(schemaJson);
