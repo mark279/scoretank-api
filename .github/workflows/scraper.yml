@@ -16,7 +16,7 @@ jobs:
     - name: تجهيز بيئة Node.js الحديثة مباشرة
       uses: actions/setup-node@v4
       with:
-        node-version: '24'
+        node-version: '22'
 
     - name: تسطيب المكتبات
       run: npm install
@@ -30,4 +30,5 @@ jobs:
         git config --local user.name "ScoreTank Bot"
         git add api.json
         git commit -m "تحديث المباريات اللحظية [skip ci]" || echo "لا توجد تحديثات"
+        git pull --rebase --autostash
         git push
