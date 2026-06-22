@@ -1,0 +1,33 @@
+name: ScoreTank Live Scraper
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # تشغيل كل 10 دقائق
+  workflow_dispatch: # زر التشغيل اليدوي للتجربة
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: جلب الملفات
+      uses: actions/checkout@v3
+
+    - name: تجهيز بيئة Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: تسطيب المكتبات
+      run: npm install
+
+    - name: تشغيل محرك السحب (Scraper)
+      run: npm start
+
+    - name: حفظ وتحديث ملف api.json
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "ScoreTank Bot"
+        git add api.json
+        git commit -m "تحديث المباريات اللحظية [skip ci]" || echo "لا توجد تحديثات جديدة"
+        git push
