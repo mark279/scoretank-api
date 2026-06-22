@@ -4,18 +4,15 @@ import { fileURLToPath } from 'url';
 import protobuf from 'protobufjs';
 import { gotScraping } from 'got-scraping';
 
-// تهيئة المسارات لنظام ES Modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// البطولات المستهدفة
 const targetLeagues = [
     "كأس العالم", "كأس أمم أفريقيا", "دوري أبطال أفريقيا", "دوري أبطال أوروبا", 
     "الدوري الإنجليزي الممتاز", "الدوري الإسباني الدرجة الأولى", "الدوري الإيطالي الدرجة الأولى", 
     "الدوري الألماني", "الدوري المصري الممتاز", "الدوري السعودي للمحترفين", "دوري نجوم العراق", "الدوري المغربي الإحترافي إنوي"
 ];
 
-// دالة لضبط التاريخ بتوقيت القاهرة
 function getCairoDateString(offsetDays) {
     const d = new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Cairo" }));
     d.setDate(d.getDate() + offsetDays);
