@@ -8,21 +8,20 @@ import { gotScraping } from 'got-scraping';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 1. البطولات المستهدفة
+// البطولات المستهدفة
 const targetLeagues = [
     "كأس العالم", "كأس أمم أفريقيا", "دوري أبطال أفريقيا", "دوري أبطال أوروبا", 
     "الدوري الإنجليزي الممتاز", "الدوري الإسباني الدرجة الأولى", "الدوري الإيطالي الدرجة الأولى", 
     "الدوري الألماني", "الدوري المصري الممتاز", "الدوري السعودي للمحترفين", "دوري نجوم العراق", "الدوري المغربي الإحترافي إنوي"
 ];
 
-// 2. دالة لضبط التاريخ بتوقيت القاهرة
+// دالة لضبط التاريخ بتوقيت القاهرة
 function getCairoDateString(offsetDays) {
     const d = new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Cairo" }));
     d.setDate(d.getDate() + offsetDays);
     return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
 }
 
-// 3. إصلاح مسارات الصور
 function fixImageUrl(imgUrl, type) {
     if (!imgUrl) return '';
     if (imgUrl.startsWith('http')) return imgUrl;
@@ -30,7 +29,6 @@ function fixImageUrl(imgUrl, type) {
     return `https://img0.aiscore.com/football/team/${imgUrl}`;
 }
 
-// 4. محرك الحالات والتايمر
 function getMatchMetaData(m) {
     let sId = m.statusId !== undefined ? m.statusId : (m.status || 0);
     const times = m.times || {};
@@ -65,7 +63,6 @@ function getMatchMetaData(m) {
     return { statusText, sClass, timerHtml };
 }
 
-// 5. المحرك الأساسي 
 async function runScraper() {
     console.log("🚀 بدء السحب لتخطي حماية AiScore...");
     const schemaPath = path.join(__dirname, 'aiscore_schema_final.json');
@@ -83,7 +80,6 @@ async function runScraper() {
         console.log(`⏳ جلب بيانات: ${dayName} (${dateStr})`);
 
         try {
-            // استخدام gotScraping لخداع Cloudflare كأننا متصفح حقيقي
             const response = await gotScraping({
                 url: targetUrl,
                 responseType: 'buffer', 
