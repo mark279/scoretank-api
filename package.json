@@ -1,14 +1,18 @@
 {
-  "name": "scoretank-api",
-  "version": "1.0.0",
-  "description": "ScoreTank Live Matches API",
-  "main": "scraper.js",
-  "type": "module",
+  "name": "scoretank-live-scraper",
+  "version": "2.0.0",
+  "description": "ScoreTank Live Sync Daemon with Cloudflare R2 Edge Stream",
+  "main": "crawler.js",
   "scripts": {
-    "start": "node scraper.js"
+    "start": "node crawler.js"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "fs": "0.0.1-security",
     "got-scraping": "^4.0.0",
-    "protobufjs": "^7.2.5"
+    "https": "^1.0.0",
+    "mqtt": "^4.3.7",
+    "path": "^0.12.7",
+    "protobufjs": "^7.3.0"
   }
 }
