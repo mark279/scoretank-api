@@ -190,7 +190,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1094,
-            "users": 13853,
+            "users": 13848,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -456,7 +456,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1094,
-            "users": 9835,
+            "users": 9846,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -722,7 +722,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1094,
-            "users": 17502,
+            "users": 17514,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -1259,7 +1259,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 102,
+            "users": 104,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -1520,7 +1520,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 215,
+            "users": 213,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -1786,7 +1786,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 294,
+            "users": 291,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -2057,7 +2057,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 21,
+            "users": 22,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -2288,7 +2288,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 58,
+            "users": 49,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -2549,7 +2549,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 72,
+            "users": 60,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -2810,7 +2810,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 100,
+            "users": 109,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -3041,7 +3041,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 108,
+            "users": 98,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -3307,7 +3307,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 141,
+            "users": 144,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -3538,7 +3538,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 13,
+            "users": 16,
             "serve": 0,
             "matchStatus": 7,
             "venue": {
@@ -4000,7 +4000,7 @@
             "neutral": 0,
             "note": "",
             "menu": 66,
-            "users": 33,
+            "users": 36,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -4231,7 +4231,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 27,
+            "users": 21,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -4502,7 +4502,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 148,
+            "users": 158,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -4768,7 +4768,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 308,
+            "users": 304,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -5034,7 +5034,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 347,
+            "users": 355,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -5319,7 +5319,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1110,
-            "users": 18126,
+            "users": 18136,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -5616,7 +5616,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1110,
-            "users": 7058,
+            "users": 7059,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -5720,18 +5720,18 @@
           "t2": "أوزبكستان",
           "t1Logo": "https://img0.aiscore.com/football/team/c9847eeba0c64358960425bb19adbac0.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/3016a701d47246f082016705f2f7267c.png!w80",
-          "score1": 2,
+          "score1": 5,
           "score2": 0,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              2,
-              2,
-              0,
+              5,
+              3,
               0,
               1,
+              3,
               0,
               0
             ],
@@ -5740,7 +5740,7 @@
               0,
               0,
               1,
-              0,
+              2,
               0,
               0
             ],
@@ -5879,9 +5879,9 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234004,
+              "tmrUpdated": 0,
               "tmrSecs": 0,
               "addTime": 0,
               "day": 0
@@ -5907,15 +5907,15 @@
               }
             },
             "matchTime": 1782234000,
-            "statusId": 2,
+            "statusId": 8,
             "groupNum": 11,
             "roundNum": 2,
             "neutral": 1,
             "note": "",
             "menu": 1110,
-            "users": 751998,
+            "users": 71661,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 9200,
               "name": "",
@@ -5958,33 +5958,33 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "1.15",
-                      "2",
-                      "0.67",
+                      "0.93",
+                      "1.75",
+                      "0.93",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "1",
-                      "51",
-                      "126",
+                      "1.22",
+                      "6",
+                      "10",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "1.15",
-                      "4.75",
-                      "0.67",
+                      "0.93",
+                      "3",
+                      "0.93",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "2.0",
-                      "7.5",
-                      "1.72",
+                      "1.83",
+                      "9.5",
+                      "1.83",
                       "0"
                     ]
                   }
@@ -6210,7 +6210,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1110,
-            "users": 16377,
+            "users": 61041,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -6242,7 +6242,7 @@
             "kind": 0,
             "ext": {
               "environment": {
-                "weather": 7,
+                "weather": 10,
                 "pressure": "",
                 "temperature": "18°C",
                 "wind": "",
@@ -6264,24 +6264,24 @@
                   {
                     "odd": [
                       "1.18",
-                      "7",
-                      "17",
+                      "7.5",
+                      "15",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "0.93",
+                      "0.85",
                       "3",
-                      "0.93",
+                      "1",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "2.1",
-                      "9.5",
-                      "1.66",
+                      "1.72",
+                      "8.5",
+                      "2.0",
                       "0"
                     ]
                   }
@@ -6512,7 +6512,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 28,
+            "users": 27,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -6774,7 +6774,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 15,
+            "users": 25,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -7041,7 +7041,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 22,
+            "users": 30,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -7303,7 +7303,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 151,
+            "users": 47,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -7574,7 +7574,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 348,
+            "users": 108,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -7880,7 +7880,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 7706,
+            "users": 69,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -8142,7 +8142,7 @@
             "neutral": 0,
             "note": "",
             "menu": 82,
-            "users": 5349,
+            "users": 16,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -8413,7 +8413,7 @@
             "neutral": 1,
             "note": "",
             "menu": 82,
-            "users": 15045,
+            "users": 118,
             "serve": 0,
             "matchStatus": 3,
             "venue": {
@@ -8491,18 +8491,18 @@
           "t2": "سبارتاك بليفين",
           "t1Logo": "https://img0.aiscore.com/football/team/ca2873db2e4098a463b85e2af51d3ad6.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/aad8c4823eb2ac46d64dd5cce3aeda0d.png!w80",
-          "score1": 3,
+          "score1": 4,
           "score2": 0,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              3,
+              4,
               2,
               0,
               0,
-              6,
+              8,
               0,
               0
             ],
@@ -8511,7 +8511,7 @@
               0,
               0,
               0,
-              2,
+              3,
               0,
               0
             ],
@@ -8650,10 +8650,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234452,
-              "tmrSecs": 2700,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
               "addTime": 0,
               "day": 0
             },
@@ -8678,15 +8678,15 @@
               }
             },
             "matchTime": 1782230400,
-            "statusId": 4,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 10082,
+            "users": 105,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 4223,
               "name": "",
@@ -8753,14 +8753,14 @@
           "t2": "فلازنيا شكودر",
           "t1Logo": "https://img0.aiscore.com/football/team/016486307fcd47800a3b166cb5523f07.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/cafa9c1ed9b974a8306fd1a5b1f4ae16.png!w80",
-          "score1": 2,
+          "score1": 4,
           "score2": 0,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              2,
+              4,
               1,
               0,
               0,
@@ -8912,10 +8912,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234091,
-              "tmrSecs": 2700,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
               "addTime": 0,
               "day": 0
             },
@@ -8940,15 +8940,15 @@
               }
             },
             "matchTime": 1782230400,
-            "statusId": 4,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
-            "menu": 192,
-            "users": 10718,
+            "menu": 64,
+            "users": 144,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 1640,
               "name": "",
@@ -8980,7 +8980,7 @@
               "environment": {
                 "weather": 1,
                 "pressure": "",
-                "temperature": "23°C",
+                "temperature": "21°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -8991,25 +8991,25 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "1.05",
-                      "0.75",
-                      "0.75",
+                      "1.02",
+                      "1.25",
+                      "0.77",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "1",
-                      "51",
-                      "101",
+                      "1.45",
+                      "4.5",
+                      "5",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "1.1",
-                      "3",
-                      "0.7",
+                      "0.77",
+                      "2.75",
+                      "1.02",
                       "0"
                     ]
                   },
@@ -9020,49 +9020,11 @@
               },
               "baned": {
                 "ipCodes": [],
-                "adStreamCode": [],
-                "countryCode": {
-                  "banedCode": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12,
-                    13,
-                    14,
-                    15,
-                    16,
-                    17,
-                    19,
-                    21,
-                    22,
-                    25,
-                    29,
-                    30,
-                    32,
-                    35,
-                    37,
-                    43,
-                    46,
-                    48,
-                    49,
-                    50,
-                    54,
-                    121,
-                    133,
-                    177,
-                    220,
-                    0
-                  ],
-                  "permitCode": []
-                },
+                "adStreamCode": [
+                  56,
+                  53
+                ],
+                "countryCode": null,
                 "mediaCode": null,
                 "ticketCode": null
               },
@@ -9103,7 +9065,7 @@
               0,
               0,
               0,
-              1,
+              3,
               0,
               0
             ],
@@ -9251,10 +9213,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234172,
-              "tmrSecs": 2700,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
               "addTime": 0,
               "day": 0
             },
@@ -9279,15 +9241,15 @@
               }
             },
             "matchTime": 1782230400,
-            "statusId": 4,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 4403,
+            "users": 72,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 11590,
               "name": "",
@@ -9319,7 +9281,7 @@
               "environment": {
                 "weather": 1,
                 "pressure": "",
-                "temperature": "23°C",
+                "temperature": "22°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -9354,27 +9316,27 @@
           "t2": "بيونيك",
           "t1Logo": "https://img0.aiscore.com/football/team/8e61634a08ce4e22f54cfef1c6b48b6a.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/73bbf9f60325dd616ffed763f958f36d.png!w80",
-          "score1": 1,
-          "score2": 1,
+          "score1": 2,
+          "score2": 2,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              1,
+              2,
               1,
               0,
-              1,
-              4,
+              2,
+              7,
               0,
               0
             ],
             "awayScores": [
-              1,
-              1,
-              0,
-              0,
               2,
+              1,
+              0,
+              0,
+              5,
               0,
               0
             ],
@@ -9513,10 +9475,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234095,
-              "tmrSecs": 2700,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
               "addTime": 0,
               "day": 0
             },
@@ -9541,15 +9503,15 @@
               }
             },
             "matchTime": 1782230400,
-            "statusId": 4,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 10573,
+            "users": 116,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 3639,
               "name": "",
@@ -9592,25 +9554,25 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.65",
-                      "-0.25",
-                      "1.2",
-                      "0"
-                    ]
-                  },
-                  {
-                    "odd": [
-                      "5",
-                      "1.9",
-                      "2.87",
-                      "0"
-                    ]
-                  },
-                  {
-                    "odd": [
                       "0.95",
-                      "2.75",
+                      "0",
                       "0.85",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "2.45",
+                      "3.6",
+                      "2.35",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "1",
+                      "3",
+                      "0.8",
                       "0"
                     ]
                   },
@@ -9647,7 +9609,7 @@
           "t1Logo": "https://img0.aiscore.com/football/team/932090784a693acf21c043cd96b56740.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/5099192a1226b54aa2ce2a430edf9af9.png!w80",
           "score1": 0,
-          "score2": 2,
+          "score2": 4,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
@@ -9656,17 +9618,17 @@
               0,
               0,
               0,
-              0,
+              1,
               3,
               0,
               0
             ],
             "awayScores": [
-              2,
+              4,
               2,
               0,
               0,
-              5,
+              6,
               0,
               0
             ],
@@ -9805,10 +9767,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234879,
-              "tmrSecs": 2700,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
               "addTime": 0,
               "day": 0
             },
@@ -9833,15 +9795,15 @@
               }
             },
             "matchTime": 1782231300,
-            "statusId": 4,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 1,
             "note": "",
             "menu": 82,
-            "users": 9219,
+            "users": 146,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 0,
               "name": "",
@@ -9884,33 +9846,33 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.67",
-                      "-0.25",
-                      "1.15",
+                      "1",
+                      "-0.75",
+                      "0.8",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "23",
-                      "11",
-                      "1.05",
+                      "4.75",
+                      "3.6",
+                      "1.62",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "0.95",
-                      "3.25",
-                      "0.85",
+                      "0.8",
+                      "2.75",
+                      "1",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "1.83",
-                      "11.5",
-                      "1.83",
+                      "2.1",
+                      "8.5",
+                      "1.66",
                       "0"
                     ]
                   }
@@ -9943,15 +9905,15 @@
           "t2": "آيششتات",
           "t1Logo": "https://img0.aiscore.com/football/team/5d94a78e01ba6f118fac01cc325983df.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/8561d88be50bc4bea81df228e5c32fdf.png!w80",
-          "score1": 0,
-          "score2": 0,
+          "score1": 2,
+          "score2": 3,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              0,
-              0,
+              2,
+              2,
               0,
               0,
               0,
@@ -9959,8 +9921,8 @@
               0
             ],
             "awayScores": [
-              0,
-              0,
+              3,
+              3,
               0,
               0,
               0,
@@ -10102,9 +10064,9 @@
               "extraData": null
             },
             "times": {
-              "ticking": 1,
+              "ticking": 0,
               "countdown": 0,
-              "tmrUpdated": 1782234004,
+              "tmrUpdated": 0,
               "tmrSecs": 0,
               "addTime": 0,
               "day": 0
@@ -10130,15 +10092,15 @@
               }
             },
             "matchTime": 1782234000,
-            "statusId": 2,
+            "statusId": 8,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 3544,
+            "users": 668,
             "serve": 0,
-            "matchStatus": 2,
+            "matchStatus": 3,
             "venue": {
               "id": 0,
               "name": "",
@@ -10392,15 +10354,15 @@
               }
             },
             "matchTime": 1782235800,
-            "statusId": 1,
+            "statusId": 13,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 146,
+            "users": 42,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 8,
             "venue": {
               "id": 0,
               "name": "",
@@ -10654,15 +10616,15 @@
               }
             },
             "matchTime": 1782237600,
-            "statusId": 12,
+            "statusId": 13,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 90,
+            "users": 181,
             "serve": 0,
-            "matchStatus": 7,
+            "matchStatus": 8,
             "venue": {
               "id": 0,
               "name": "",
@@ -10729,15 +10691,15 @@
           "t2": "نادي الخدمة المدنية سترولرز",
           "t1Logo": "https://img0.aiscore.com/football/team/b9a63eb91a1d108234eddd537c389bb7.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/a24d44020d5f23585e1b60687c6ffb0b.png!w80",
-          "score1": 0,
+          "score1": 2,
           "score2": 0,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              0,
-              0,
+              2,
+              2,
               0,
               0,
               0,
@@ -10891,7 +10853,7 @@
               "ticking": 0,
               "countdown": 0,
               "tmrUpdated": 0,
-              "tmrSecs": 0,
+              "tmrSecs": 2700,
               "addTime": 0,
               "day": 0
             },
@@ -10916,15 +10878,15 @@
               }
             },
             "matchTime": 1782239400,
-            "statusId": 1,
+            "statusId": 3,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 96,
+            "users": 1792,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 2,
             "venue": {
               "id": 0,
               "name": "",
@@ -10954,9 +10916,9 @@
             "kind": 0,
             "ext": {
               "environment": {
-                "weather": 7,
+                "weather": 1,
                 "pressure": "",
-                "temperature": "23°C",
+                "temperature": "24°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -10991,15 +10953,15 @@
           "t2": "إنفرنيس",
           "t1Logo": "https://img0.aiscore.com/football/team/264f518ad85adf3e48bc69bf217bc0d7.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/1e7880aacbbfea735a5e3d8def60c31f.png!w80",
-          "score1": 0,
-          "score2": 0,
+          "score1": 1,
+          "score2": 2,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
-              0,
-              0,
+              1,
+              1,
               0,
               0,
               0,
@@ -11007,8 +10969,8 @@
               0
             ],
             "awayScores": [
-              0,
-              0,
+              2,
+              2,
               0,
               0,
               0,
@@ -11153,7 +11115,7 @@
               "ticking": 0,
               "countdown": 0,
               "tmrUpdated": 0,
-              "tmrSecs": 0,
+              "tmrSecs": 2700,
               "addTime": 0,
               "day": 0
             },
@@ -11178,15 +11140,15 @@
               }
             },
             "matchTime": 1782239400,
-            "statusId": 1,
+            "statusId": 3,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 78,
+            "users": 1665,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 2,
             "venue": {
               "id": 0,
               "name": "",
@@ -11218,7 +11180,7 @@
               "environment": {
                 "weather": 7,
                 "pressure": "",
-                "temperature": "22°C",
+                "temperature": "21°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -11248,13 +11210,305 @@
           }
         },
         {
+          "id": "o17pjiomjr4uy7j",
+          "t1": "عنان أتليتيك",
+          "t2": "Johnstone Burgh FC",
+          "t1Logo": "https://img0.aiscore.com/football/team/73a68060ce9ca09919319c67507ad3f6.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/0136b48e35377ff2325dfe3af8e9565f.png!w80",
+          "score1": 3,
+          "score2": 0,
+          "pen1": 0,
+          "pen2": 0,
+          "rawMatchData": {
+            "points": [],
+            "homeScores": [
+              3,
+              3,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            "awayScores": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "homeTeams": [],
+            "awayTeams": [],
+            "id": "o17pjiomjr4uy7j",
+            "sportId": 1,
+            "key": "",
+            "competition": {
+              "id": "59gklzi0lc37xdv",
+              "sportId": 0,
+              "category": null,
+              "country": null,
+              "name": "",
+              "curSeasonId": "",
+              "curSeason": "",
+              "logo": "",
+              "level": 0,
+              "weight": 0,
+              "roundCount": 0,
+              "curRound": 0,
+              "curStageId": 0,
+              "color": "",
+              "host": "",
+              "primaryColor": "",
+              "seasonStart": "",
+              "seasonEnd": "",
+              "type": 0,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "hasStats": 0,
+              "isHot": 0,
+              "slug": "",
+              "hostCountry": "",
+              "hostCity": "",
+              "isTennisTeamEvent": false,
+              "chapters": 0,
+              "cid": 24,
+              "menu": 0,
+              "users": 0,
+              "identification": 0
+            },
+            "season": {
+              "id": "",
+              "year": "",
+              "competition": null,
+              "startDate": 0,
+              "endDate": 0,
+              "sid": 13874,
+              "rule": null,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "homeTeam": {
+              "doubleTeams": [],
+              "id": "527r3ie1l6c87ev",
+              "sportId": 0,
+              "venue": null,
+              "manager": null,
+              "country": null,
+              "name": "",
+              "logo": "",
+              "position": "",
+              "rating": "",
+              "national": 0,
+              "foreignPlayers": 0,
+              "nationalPlayers": 0,
+              "foundationTime": 0,
+              "background": "",
+              "hasStats": 0,
+              "totalPlayers": 0,
+              "marketValue": "",
+              "comp": null,
+              "slug": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "shortName": "",
+              "tennisExtra": null,
+              "conferenceId": 0,
+              "intro": "",
+              "tid": 0,
+              "color": "",
+              "tabColor": "",
+              "users": 0,
+              "shareLink": "",
+              "isDouble": false,
+              "intMarketValue": 0,
+              "virtual": 0,
+              "salary": null,
+              "extraData": null
+            },
+            "awayTeam": {
+              "doubleTeams": [],
+              "id": "m2q15in34zam76x",
+              "sportId": 0,
+              "venue": null,
+              "manager": null,
+              "country": null,
+              "name": "",
+              "logo": "",
+              "position": "",
+              "rating": "",
+              "national": 0,
+              "foreignPlayers": 0,
+              "nationalPlayers": 0,
+              "foundationTime": 0,
+              "background": "",
+              "hasStats": 0,
+              "totalPlayers": 0,
+              "marketValue": "",
+              "comp": null,
+              "slug": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "shortName": "",
+              "tennisExtra": null,
+              "conferenceId": 0,
+              "intro": "",
+              "tid": 0,
+              "color": "",
+              "tabColor": "",
+              "users": 0,
+              "shareLink": "",
+              "isDouble": false,
+              "intMarketValue": 0,
+              "virtual": 0,
+              "salary": null,
+              "extraData": null
+            },
+            "times": {
+              "ticking": 0,
+              "countdown": 0,
+              "tmrUpdated": 0,
+              "tmrSecs": 2700,
+              "addTime": 0,
+              "day": 0
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "stage": {
+              "id": "234871",
+              "sportId": 0,
+              "season": null,
+              "name": "",
+              "order": 0,
+              "mode": 0,
+              "groupCount": 0,
+              "roundCount": 0,
+              "isTop": 0,
+              "rule": null,
+              "matchType": "",
+              "compLogo": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "matchTime": 1782239400,
+            "statusId": 3,
+            "groupNum": 0,
+            "roundNum": 0,
+            "neutral": 0,
+            "note": "",
+            "menu": 64,
+            "users": 7681,
+            "serve": 0,
+            "matchStatus": 2,
+            "venue": {
+              "id": 2105,
+              "name": "",
+              "capacity": 0,
+              "city": "",
+              "country": "",
+              "ground": 0,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "referee": {
+              "id": "",
+              "name": "",
+              "yellowCardsPerGame": 0,
+              "redCardsPerGame": 0,
+              "logo": "",
+              "rid": 0,
+              "country": null,
+              "hasStats": 0,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "kind": 0,
+            "ext": {
+              "environment": {
+                "weather": 13,
+                "pressure": "",
+                "temperature": "21°C",
+                "wind": "",
+                "humidity": ""
+              },
+              "homePosition": "7",
+              "awayPosition": "",
+              "extMenu": 0,
+              "odds": {
+                "oddItems": [
+                  {
+                    "odd": [
+                      "0.95",
+                      "0.75",
+                      "0.85",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "1",
+                      "34",
+                      "51",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "1.02",
+                      "5",
+                      "0.77",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": []
+                  }
+                ]
+              },
+              "baned": null,
+              "hasPlayerTotal": 0,
+              "isTennisDouble": false,
+              "ground": 0,
+              "hasMedia": 0,
+              "hasH2hTips": 0
+            },
+            "extra": {
+              "type": "Buffer",
+              "data": []
+            },
+            "tennisTimes": null,
+            "intro": "",
+            "mid": 0,
+            "isCopyright": 0,
+            "shareLink": "",
+            "spMatchStatus": 1,
+            "tabs": 0,
+            "deleted": 0
+          }
+        },
+        {
           "id": "69759ige2nnugk2",
           "t1": "بكلي تاون",
           "t2": "لاندودنو",
           "t1Logo": "https://img0.aiscore.com/football/team/dba132f6ab6a3e3d17a8d59e82105f4c.jpg!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/48c0b3cf0c62e40eeff5a9b07a63d953.jpg!w80",
           "score1": 0,
-          "score2": 0,
+          "score2": 3,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
@@ -11269,11 +11523,11 @@
               0
             ],
             "awayScores": [
+              3,
               0,
               0,
               0,
-              0,
-              0,
+              3,
               0,
               0
             ],
@@ -11415,7 +11669,7 @@
               "ticking": 0,
               "countdown": 0,
               "tmrUpdated": 0,
-              "tmrSecs": 0,
+              "tmrSecs": 2700,
               "addTime": 0,
               "day": 0
             },
@@ -11440,15 +11694,15 @@
               }
             },
             "matchTime": 1782239400,
-            "statusId": 1,
+            "statusId": 3,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 170,
+            "users": 3214,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 2,
             "venue": {
               "id": 0,
               "name": "",
@@ -11478,9 +11732,9 @@
             "kind": 0,
             "ext": {
               "environment": {
-                "weather": 10,
+                "weather": 5,
                 "pressure": "",
-                "temperature": "11°C",
+                "temperature": "24°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -11492,24 +11746,24 @@
                   {
                     "odd": [
                       "0.85",
-                      "-2",
+                      "-1.25",
                       "0.95",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "9",
-                      "5.75",
-                      "1.2",
+                      "51",
+                      "51",
+                      "1",
                       "0"
                     ]
                   },
                   {
                     "odd": [
-                      "0.85",
-                      "3.75",
-                      "0.95",
+                      "1.05",
+                      "5.25",
+                      "0.75",
                       "0"
                     ]
                   },
@@ -11545,18 +11799,18 @@
           "t2": "تري توماس دروسيل",
           "t1Logo": "https://img0.aiscore.com/football/team/48df7f84efe0c027f88dbdcb1d9d54c2.png!w80",
           "t2Logo": "https://img0.aiscore.com/football/team/b1318da9b5afcb2367711e73f1d66d1b.png!w80",
-          "score1": 0,
+          "score1": 2,
           "score2": 0,
           "pen1": 0,
           "pen2": 0,
           "rawMatchData": {
             "points": [],
             "homeScores": [
+              2,
+              2,
               0,
               0,
-              0,
-              0,
-              0,
+              3,
               0,
               0
             ],
@@ -11704,10 +11958,10 @@
               "extraData": null
             },
             "times": {
-              "ticking": 0,
+              "ticking": 1,
               "countdown": 0,
-              "tmrUpdated": 0,
-              "tmrSecs": 0,
+              "tmrUpdated": 1782242779,
+              "tmrSecs": 2700,
               "addTime": 0,
               "day": 0
             },
@@ -11732,15 +11986,15 @@
               }
             },
             "matchTime": 1782239400,
-            "statusId": 1,
+            "statusId": 4,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 192,
+            "users": 4901,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 2,
             "venue": {
               "id": 0,
               "name": "",
@@ -11772,7 +12026,7 @@
               "environment": {
                 "weather": 5,
                 "pressure": "",
-                "temperature": "26°C",
+                "temperature": "27°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -11782,320 +12036,13 @@
               "odds": {
                 "oddItems": [
                   {
-                    "odd": [
-                      "0.85",
-                      "2.75",
-                      "0.95",
-                      "0"
-                    ]
-                  },
-                  {
-                    "odd": [
-                      "1.07",
-                      "10",
-                      "23",
-                      "0"
-                    ]
-                  },
-                  {
-                    "odd": [
-                      "0.8",
-                      "4",
-                      "1",
-                      "0"
-                    ]
+                    "odd": []
                   },
                   {
                     "odd": []
-                  }
-                ]
-              },
-              "baned": null,
-              "hasPlayerTotal": 0,
-              "isTennisDouble": false,
-              "ground": 0,
-              "hasMedia": 0,
-              "hasH2hTips": 0
-            },
-            "extra": {
-              "type": "Buffer",
-              "data": []
-            },
-            "tennisTimes": null,
-            "intro": "",
-            "mid": 0,
-            "isCopyright": 0,
-            "shareLink": "",
-            "spMatchStatus": 1,
-            "tabs": 0,
-            "deleted": 0
-          }
-        },
-        {
-          "id": "o17pjiomjr4uy7j",
-          "t1": "عنان أتليتيك",
-          "t2": "Johnstone Burgh FC",
-          "t1Logo": "https://img0.aiscore.com/football/team/73a68060ce9ca09919319c67507ad3f6.png!w80",
-          "t2Logo": "https://img0.aiscore.com/football/team/0136b48e35377ff2325dfe3af8e9565f.png!w80",
-          "score1": 0,
-          "score2": 0,
-          "pen1": 0,
-          "pen2": 0,
-          "rawMatchData": {
-            "points": [],
-            "homeScores": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "awayScores": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "homeTeams": [],
-            "awayTeams": [],
-            "id": "o17pjiomjr4uy7j",
-            "sportId": 1,
-            "key": "",
-            "competition": {
-              "id": "59gklzi0lc37xdv",
-              "sportId": 0,
-              "category": null,
-              "country": null,
-              "name": "",
-              "curSeasonId": "",
-              "curSeason": "",
-              "logo": "",
-              "level": 0,
-              "weight": 0,
-              "roundCount": 0,
-              "curRound": 0,
-              "curStageId": 0,
-              "color": "",
-              "host": "",
-              "primaryColor": "",
-              "seasonStart": "",
-              "seasonEnd": "",
-              "type": 0,
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              },
-              "hasStats": 0,
-              "isHot": 0,
-              "slug": "",
-              "hostCountry": "",
-              "hostCity": "",
-              "isTennisTeamEvent": false,
-              "chapters": 0,
-              "cid": 24,
-              "menu": 0,
-              "users": 0,
-              "identification": 0
-            },
-            "season": {
-              "id": "",
-              "year": "",
-              "competition": null,
-              "startDate": 0,
-              "endDate": 0,
-              "sid": 13874,
-              "rule": null,
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              }
-            },
-            "homeTeam": {
-              "doubleTeams": [],
-              "id": "527r3ie1l6c87ev",
-              "sportId": 0,
-              "venue": null,
-              "manager": null,
-              "country": null,
-              "name": "",
-              "logo": "",
-              "position": "",
-              "rating": "",
-              "national": 0,
-              "foreignPlayers": 0,
-              "nationalPlayers": 0,
-              "foundationTime": 0,
-              "background": "",
-              "hasStats": 0,
-              "totalPlayers": 0,
-              "marketValue": "",
-              "comp": null,
-              "slug": "",
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              },
-              "shortName": "",
-              "tennisExtra": null,
-              "conferenceId": 0,
-              "intro": "",
-              "tid": 0,
-              "color": "",
-              "tabColor": "",
-              "users": 0,
-              "shareLink": "",
-              "isDouble": false,
-              "intMarketValue": 0,
-              "virtual": 0,
-              "salary": null,
-              "extraData": null
-            },
-            "awayTeam": {
-              "doubleTeams": [],
-              "id": "m2q15in34zam76x",
-              "sportId": 0,
-              "venue": null,
-              "manager": null,
-              "country": null,
-              "name": "",
-              "logo": "",
-              "position": "",
-              "rating": "",
-              "national": 0,
-              "foreignPlayers": 0,
-              "nationalPlayers": 0,
-              "foundationTime": 0,
-              "background": "",
-              "hasStats": 0,
-              "totalPlayers": 0,
-              "marketValue": "",
-              "comp": null,
-              "slug": "",
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              },
-              "shortName": "",
-              "tennisExtra": null,
-              "conferenceId": 0,
-              "intro": "",
-              "tid": 0,
-              "color": "",
-              "tabColor": "",
-              "users": 0,
-              "shareLink": "",
-              "isDouble": false,
-              "intMarketValue": 0,
-              "virtual": 0,
-              "salary": null,
-              "extraData": null
-            },
-            "times": {
-              "ticking": 0,
-              "countdown": 0,
-              "tmrUpdated": 0,
-              "tmrSecs": 0,
-              "addTime": 0,
-              "day": 0
-            },
-            "homeScore": 0,
-            "awayScore": 0,
-            "stage": {
-              "id": "234871",
-              "sportId": 0,
-              "season": null,
-              "name": "",
-              "order": 0,
-              "mode": 0,
-              "groupCount": 0,
-              "roundCount": 0,
-              "isTop": 0,
-              "rule": null,
-              "matchType": "",
-              "compLogo": "",
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              }
-            },
-            "matchTime": 1782240300,
-            "statusId": 1,
-            "groupNum": 0,
-            "roundNum": 0,
-            "neutral": 0,
-            "note": "",
-            "menu": 64,
-            "users": 138,
-            "serve": 0,
-            "matchStatus": 1,
-            "venue": {
-              "id": 2105,
-              "name": "",
-              "capacity": 0,
-              "city": "",
-              "country": "",
-              "ground": 0,
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              }
-            },
-            "referee": {
-              "id": "",
-              "name": "",
-              "yellowCardsPerGame": 0,
-              "redCardsPerGame": 0,
-              "logo": "",
-              "rid": 0,
-              "country": null,
-              "hasStats": 0,
-              "extra": {
-                "type": "Buffer",
-                "data": []
-              }
-            },
-            "kind": 0,
-            "ext": {
-              "environment": {
-                "weather": 1,
-                "pressure": "",
-                "temperature": "21°C",
-                "wind": "",
-                "humidity": ""
-              },
-              "homePosition": "7",
-              "awayPosition": "",
-              "extMenu": 0,
-              "odds": {
-                "oddItems": [
-                  {
-                    "odd": [
-                      "0.95",
-                      "1.25",
-                      "0.85",
-                      "0"
-                    ]
                   },
                   {
-                    "odd": [
-                      "1.42",
-                      "5",
-                      "4.5",
-                      "0"
-                    ]
-                  },
-                  {
-                    "odd": [
-                      "0.82",
-                      "3.25",
-                      "0.97",
-                      "0"
-                    ]
+                    "odd": []
                   },
                   {
                     "odd": []
@@ -12288,9 +12235,9 @@
               "extraData": null
             },
             "times": {
-              "ticking": 0,
+              "ticking": 1,
               "countdown": 0,
-              "tmrUpdated": 0,
+              "tmrUpdated": 1782240302,
               "tmrSecs": 0,
               "addTime": 0,
               "day": 0
@@ -12315,16 +12262,16 @@
                 "data": []
               }
             },
-            "matchTime": 1782243900,
-            "statusId": 1,
+            "matchTime": 1782240300,
+            "statusId": 2,
             "groupNum": 0,
             "roundNum": 0,
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 122,
+            "users": 4225,
             "serve": 0,
-            "matchStatus": 1,
+            "matchStatus": 2,
             "venue": {
               "id": 0,
               "name": "",
@@ -12356,7 +12303,7 @@
               "environment": {
                 "weather": 7,
                 "pressure": "",
-                "temperature": "19°C",
+                "temperature": "18°C",
                 "wind": "",
                 "humidity": ""
               },
@@ -12366,28 +12313,13 @@
               "odds": {
                 "oddItems": [
                   {
-                    "odd": [
-                      "1",
-                      "1.75",
-                      "0.8",
-                      "0"
-                    ]
+                    "odd": []
                   },
                   {
-                    "odd": [
-                      "1.28",
-                      "5",
-                      "7.5",
-                      "0"
-                    ]
+                    "odd": []
                   },
                   {
-                    "odd": [
-                      "0.92",
-                      "3.5",
-                      "0.87",
-                      "0"
-                    ]
+                    "odd": []
                   },
                   {
                     "odd": []
@@ -12609,7 +12541,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1094,
-            "users": 6621,
+            "users": 11010,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -12635,9 +12567,9 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.83",
+                      "0.85",
                       "-1.25",
-                      "1.03",
+                      "1",
                       "0"
                     ]
                   },
@@ -12651,9 +12583,9 @@
                   },
                   {
                     "odd": [
-                      "0.82",
+                      "0.85",
                       "2.75",
-                      "1.02",
+                      "1",
                       "0"
                     ]
                   },
@@ -12875,7 +12807,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1094,
-            "users": 5806,
+            "users": 9262,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -12917,9 +12849,9 @@
                   },
                   {
                     "odd": [
-                      "0.87",
+                      "0.88",
                       "2.25",
-                      "0.97",
+                      "0.98",
                       "0"
                     ]
                   },
@@ -13141,7 +13073,7 @@
             "neutral": 0,
             "note": "",
             "menu": 68,
-            "users": 827,
+            "users": 1541,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -13407,7 +13339,7 @@
             "neutral": 1,
             "note": "",
             "menu": 1092,
-            "users": 726,
+            "users": 1302,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -13427,15 +13359,15 @@
             "ext": {
               "environment": null,
               "homePosition": "64",
-              "awayPosition": "57",
+              "awayPosition": "56",
               "extMenu": 0,
               "odds": {
                 "oddItems": [
                   {
                     "odd": [
-                      "1.02",
+                      "1.03",
                       "1.5",
-                      "0.82",
+                      "0.83",
                       "0"
                     ]
                   },
@@ -13449,9 +13381,9 @@
                   },
                   {
                     "odd": [
-                      "0.98",
+                      "0.93",
                       "3",
-                      "0.88",
+                      "0.93",
                       "0"
                     ]
                   },
@@ -13678,7 +13610,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 110,
+            "users": 219,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -13939,7 +13871,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 59,
+            "users": 108,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -14170,7 +14102,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 15,
+            "users": 51,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -14431,7 +14363,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 15,
+            "users": 35,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -14692,7 +14624,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 20,
+            "users": 22,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -14713,6 +14645,237 @@
               "environment": null,
               "homePosition": "2",
               "awayPosition": "",
+              "extMenu": 0,
+              "odds": null,
+              "baned": null,
+              "hasPlayerTotal": 0,
+              "isTennisDouble": false,
+              "ground": 0,
+              "hasMedia": 0,
+              "hasH2hTips": 0
+            },
+            "extra": {
+              "type": "Buffer",
+              "data": []
+            },
+            "tennisTimes": null,
+            "intro": "",
+            "mid": 0,
+            "isCopyright": 0,
+            "shareLink": "",
+            "spMatchStatus": 1,
+            "tabs": 0,
+            "deleted": 0
+          }
+        },
+        {
+          "id": "l6kegi8599wcv75",
+          "t1": "نادي داباس",
+          "t2": "دونا تيسا",
+          "t1Logo": "https://img0.aiscore.com/football/team/29ab3d04baab36674def8b5fb434817c.png!w80",
+          "t2Logo": "https://img0.aiscore.com/football/team/664d4569925784c96ee81e851f369c46.png!w80",
+          "score1": 0,
+          "score2": 0,
+          "pen1": 0,
+          "pen2": 0,
+          "rawMatchData": {
+            "points": [],
+            "homeScores": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "awayScores": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "homeTeams": [],
+            "awayTeams": [],
+            "id": "l6kegi8599wcv75",
+            "sportId": 1,
+            "key": "",
+            "competition": {
+              "id": "59gklzi0lc37xdv",
+              "sportId": 0,
+              "category": null,
+              "country": null,
+              "name": "",
+              "curSeasonId": "",
+              "curSeason": "",
+              "logo": "",
+              "level": 0,
+              "weight": 0,
+              "roundCount": 0,
+              "curRound": 0,
+              "curStageId": 0,
+              "color": "",
+              "host": "",
+              "primaryColor": "",
+              "seasonStart": "",
+              "seasonEnd": "",
+              "type": 0,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "hasStats": 0,
+              "isHot": 0,
+              "slug": "",
+              "hostCountry": "",
+              "hostCity": "",
+              "isTennisTeamEvent": false,
+              "chapters": 0,
+              "cid": 0,
+              "menu": 0,
+              "users": 0,
+              "identification": 0
+            },
+            "season": null,
+            "homeTeam": {
+              "doubleTeams": [],
+              "id": "ndkz6iz3l2beq3z",
+              "sportId": 0,
+              "venue": null,
+              "manager": null,
+              "country": null,
+              "name": "",
+              "logo": "",
+              "position": "",
+              "rating": "",
+              "national": 0,
+              "foreignPlayers": 0,
+              "nationalPlayers": 0,
+              "foundationTime": 0,
+              "background": "",
+              "hasStats": 0,
+              "totalPlayers": 0,
+              "marketValue": "",
+              "comp": null,
+              "slug": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "shortName": "",
+              "tennisExtra": null,
+              "conferenceId": 0,
+              "intro": "",
+              "tid": 0,
+              "color": "",
+              "tabColor": "",
+              "users": 0,
+              "shareLink": "",
+              "isDouble": false,
+              "intMarketValue": 0,
+              "virtual": 0,
+              "salary": null,
+              "extraData": null
+            },
+            "awayTeam": {
+              "doubleTeams": [],
+              "id": "edq09i5pwea4qxg",
+              "sportId": 0,
+              "venue": null,
+              "manager": null,
+              "country": null,
+              "name": "",
+              "logo": "",
+              "position": "",
+              "rating": "",
+              "national": 0,
+              "foreignPlayers": 0,
+              "nationalPlayers": 0,
+              "foundationTime": 0,
+              "background": "",
+              "hasStats": 0,
+              "totalPlayers": 0,
+              "marketValue": "",
+              "comp": null,
+              "slug": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              },
+              "shortName": "",
+              "tennisExtra": null,
+              "conferenceId": 0,
+              "intro": "",
+              "tid": 0,
+              "color": "",
+              "tabColor": "",
+              "users": 0,
+              "shareLink": "",
+              "isDouble": false,
+              "intMarketValue": 0,
+              "virtual": 0,
+              "salary": null,
+              "extraData": null
+            },
+            "times": {
+              "ticking": 0,
+              "countdown": 0,
+              "tmrUpdated": 0,
+              "tmrSecs": 0,
+              "addTime": 0,
+              "day": 0
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "stage": {
+              "id": "234871",
+              "sportId": 0,
+              "season": null,
+              "name": "",
+              "order": 0,
+              "mode": 0,
+              "groupCount": 0,
+              "roundCount": 0,
+              "isTop": 0,
+              "rule": null,
+              "matchType": "",
+              "compLogo": "",
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "matchTime": 1782291600,
+            "statusId": 1,
+            "groupNum": 0,
+            "roundNum": 0,
+            "neutral": 0,
+            "note": "",
+            "menu": 0,
+            "users": 23,
+            "serve": 0,
+            "matchStatus": 1,
+            "venue": {
+              "id": 0,
+              "name": "",
+              "capacity": 0,
+              "city": "",
+              "country": "",
+              "ground": 0,
+              "extra": {
+                "type": "Buffer",
+                "data": []
+              }
+            },
+            "referee": null,
+            "kind": 0,
+            "ext": {
+              "environment": null,
+              "homePosition": "",
+              "awayPosition": "9",
               "extMenu": 0,
               "odds": null,
               "baned": null,
@@ -14923,7 +15086,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 28,
+            "users": 64,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -15189,7 +15352,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 21,
+            "users": 55,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -15420,7 +15583,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 20,
+            "users": 42,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -15446,9 +15609,9 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.92",
+                      "0.93",
                       "3.5",
-                      "0.87",
+                      "0.88",
                       "0"
                     ]
                   },
@@ -15462,9 +15625,9 @@
                   },
                   {
                     "odd": [
-                      "0.97",
-                      "4",
-                      "0.82",
+                      "0.98",
+                      "4.5",
+                      "0.83",
                       "0"
                     ]
                   },
@@ -15681,7 +15844,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 24,
+            "users": 34,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -15723,14 +15886,19 @@
                   },
                   {
                     "odd": [
-                      "0.83",
+                      "0.82",
                       "2.75",
-                      "0.98",
+                      "0.97",
                       "0"
                     ]
                   },
                   {
-                    "odd": []
+                    "odd": [
+                      "1.9",
+                      "8.5",
+                      "1.8",
+                      "0"
+                    ]
                   }
                 ]
               },
@@ -15942,7 +16110,7 @@
             "neutral": 1,
             "note": "",
             "menu": 64,
-            "users": 18,
+            "users": 43,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -15968,9 +16136,9 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.87",
+                      "0.88",
                       "0.75",
-                      "0.92",
+                      "0.93",
                       "0"
                     ]
                   },
@@ -16208,7 +16376,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 12,
+            "users": 20,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -16439,7 +16607,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 17,
+            "users": 25,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -16461,7 +16629,42 @@
               "homePosition": "1",
               "awayPosition": "2",
               "extMenu": 0,
-              "odds": null,
+              "odds": {
+                "oddItems": [
+                  {
+                    "odd": [
+                      "0.8",
+                      "0",
+                      "1",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "2.3",
+                      "3.6",
+                      "2.5",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "0.8",
+                      "2.75",
+                      "1",
+                      "0"
+                    ]
+                  },
+                  {
+                    "odd": [
+                      "1.9",
+                      "8.5",
+                      "1.8",
+                      "0"
+                    ]
+                  }
+                ]
+              },
               "baned": null,
               "hasPlayerTotal": 0,
               "isTennisDouble": false,
@@ -16670,7 +16873,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 17,
+            "users": 19,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -16901,7 +17104,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 9,
+            "users": 21,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -16927,9 +17130,9 @@
                 "oddItems": [
                   {
                     "odd": [
-                      "0.98",
-                      "-1",
-                      "0.83",
+                      "0.87",
+                      "-1.5",
+                      "0.92",
                       "0"
                     ]
                   },
@@ -16943,9 +17146,9 @@
                   },
                   {
                     "odd": [
-                      "0.83",
+                      "0.82",
                       "3.75",
-                      "0.98",
+                      "0.97",
                       "0"
                     ]
                   },
@@ -17162,7 +17365,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 14,
+            "users": 11,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -17393,7 +17596,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 18,
+            "users": 20,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -17624,7 +17827,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 24,
+            "users": 10,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -17855,7 +18058,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 9,
+            "users": 17,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -18086,7 +18289,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 9,
+            "users": 17,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -18317,7 +18520,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 13,
+            "users": 21,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -18583,7 +18786,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 19,
+            "users": 22,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -18814,7 +19017,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 10,
+            "users": 13,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -19075,7 +19278,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 11,
+            "users": 7,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -19306,7 +19509,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 11,
+            "users": 46,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -19577,7 +19780,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 42,
+            "users": 74,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -19838,7 +20041,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 44,
+            "users": 86,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -19874,7 +20077,7 @@
                     "odd": [
                       "8.5",
                       "4.5",
-                      "1.29",
+                      "1.28",
                       "0"
                     ]
                   },
@@ -20099,7 +20302,7 @@
             "neutral": 0,
             "note": "",
             "menu": 0,
-            "users": 38,
+            "users": 94,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -20365,7 +20568,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 14,
+            "users": 18,
             "serve": 0,
             "matchStatus": 4,
             "venue": {
@@ -20414,7 +20617,12 @@
                     ]
                   },
                   {
-                    "odd": []
+                    "odd": [
+                      "1.8",
+                      "8.5",
+                      "1.9",
+                      "0"
+                    ]
                   }
                 ]
               },
@@ -20626,7 +20834,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 9,
+            "users": 43,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -20887,7 +21095,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 16,
+            "users": 34,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -20936,7 +21144,12 @@
                     ]
                   },
                   {
-                    "odd": []
+                    "odd": [
+                      "1.83",
+                      "9.5",
+                      "1.83",
+                      "0"
+                    ]
                   }
                 ]
               },
@@ -21153,7 +21366,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 6,
+            "users": 10,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -21384,7 +21597,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 15,
+            "users": 13,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -21615,7 +21828,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 12,
+            "users": 6,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -21846,7 +22059,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 14,
+            "users": 8,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -22077,7 +22290,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 3,
+            "users": 5,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -22308,7 +22521,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 14,
+            "users": 15,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -22539,7 +22752,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 12,
+            "users": 10,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -22770,7 +22983,7 @@
             "neutral": 0,
             "note": "",
             "menu": 64,
-            "users": 11,
+            "users": 10,
             "serve": 0,
             "matchStatus": 1,
             "venue": {
@@ -22817,5 +23030,5 @@
       ]
     }
   },
-  "lastUpdate": "2026-06-23T17:25:40.597Z"
+  "lastUpdate": "2026-06-23T19:27:04.985Z"
 }
